@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_URL__c</fullName>
+    <label>External URL</label>
+    <description>Link to an article hosted elsewhere, such as Medium or LinkedIn.</description>
+    <inlineHelpText>Leave blank if you write the post in the Body field.</inlineHelpText>
+    <type>Url</type>
+    <required>false</required>
+</CustomField>

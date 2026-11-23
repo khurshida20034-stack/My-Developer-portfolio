@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>68.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Portfolio App</masterLabel>
+    <description>Single-page personal portfolio with theme toggle, sections and contact form.</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default,lightning__AppPage,lightning__HomePage">
+            <property name="siteName" type="String" default="Khurshida' SandBox" label="Site Name"/>
+            <property name="fullName" type="String" default="Sk Khurshida Banu" label="Full Name"/>
+            <property name="tagline" type="String" default="Computer Science Postgraduate | Salesforce Developer Intern | AI &amp; Innovation Enthusiast" label="Tagline"/>
+            <property name="bio" type="String" default="Highly motivated Computer Science postgraduate with hands-on experience in programming, machine learning, data analysis and the Salesforce platform. Proficient in Python, Java and SQL, with knowledge of Salesforce CRM concepts and exposure to full-stack development. Eager to grow in Salesforce development and IT roles while contributing to organizational success." label="Bio"/>
+            <property name="location" type="String" default="Kolkata, India" label="Location"/>
+            <property name="email" type="String" default="khurshida20034@gmail.com" label="Email"/>
+            <property name="whatsappNumber" type="String" default="916291303392" label="WhatsApp Number (country code, digits only)"/>
+            <property name="linkedinUrl" type="String" default="https://www.linkedin.com/in/skkhurshida" label="LinkedIn URL"/>
+            <property name="githubUrl" type="String" default="https://github.com/khurshida20034-stack" label="GitHub URL"/>
+            <property name="instagramUrl" type="String" default="https://www.instagram.com/khushi_bibliophile" label="Instagram URL"/>
+            <property name="trailheadUrl" type="String" default="" label="Trailhead URL (optional)"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

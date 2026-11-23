@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Portfolio_Experience__c",
+        "referenceId": "Portfolio_Experience__c1"
+      },
+      "Name": "Salesforce Developer Intern",
+      "Entry_Type__c": "Work",
+      "Is_Current__c": true,
+      "Description__c": "Working on the Salesforce Platform with Apex, Lightning Web Components, Triggers, Flows, Validation Rules and Experience Sites.",
+      "Display_Order__c": 1,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Experience__c",
+        "referenceId": "Portfolio_Experience__c2"
+      },
+      "Name": "Master of Computer Applications",
+      "Entry_Type__c": "Education",
+      "Organization__c": "Jadavpur University",
+      "Location__c": "Kolkata, India",
+      "End_Date__c": "2026-07-01",
+      "Description__c": "CGPA: 7.30 / 10",
+      "Display_Order__c": 10,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Experience__c",
+        "referenceId": "Portfolio_Experience__c3"
+      },
+      "Name": "B.Sc. (Hons) Computer Science",
+      "Entry_Type__c": "Education",
+      "Organization__c": "University of Kolkata",
+      "Location__c": "Kolkata, India",
+      "End_Date__c": "2024-06-01",
+      "Description__c": "CGPA: 7.83 / 10",
+      "Display_Order__c": 20,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Experience__c",
+        "referenceId": "Portfolio_Experience__c4"
+      },
+      "Name": "Higher Secondary",
+      "Entry_Type__c": "Education",
+      "Organization__c": "WBCHSE",
+      "Description__c": "84.6%",
+      "Display_Order__c": 30,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Experience__c",
+        "referenceId": "Portfolio_Experience__c5"
+      },
+      "Name": "Secondary",
+      "Entry_Type__c": "Education",
+      "Organization__c": "WBBSE",
+      "Description__c": "87.14%",
+      "Display_Order__c": 40,
+      "Is_Published__c": true
+    }
+  ]
+}

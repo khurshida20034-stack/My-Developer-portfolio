@@ -1,0 +1,26 @@
+@import 'c/portfolioShared';
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+    margin-top: 1.6rem;
+}
+
+.cert-title {
+    margin: 0 0 0.3rem;
+    font-size: 1.05rem;
+    color: var(--pf-text);
+}
+
+.cert-issuer {
+    margin: 0;
+    color: var(--pf-link);
+    font-weight: 600;
+}
+
+.cert-meta {
+    margin: 0.2rem 0 0;
+    color: var(--pf-muted);
+    font-size: 0.88rem;
+}

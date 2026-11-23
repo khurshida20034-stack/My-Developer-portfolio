@@ -1,0 +1,334 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c1"
+      },
+      "Name": "Salesforce Platform",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 1,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c2"
+      },
+      "Name": "Apex",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 2,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c3"
+      },
+      "Name": "LWC",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 3,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c4"
+      },
+      "Name": "Triggers",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 4,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c5"
+      },
+      "Name": "Flows",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 5,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c6"
+      },
+      "Name": "Validation Rules",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 6,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c7"
+      },
+      "Name": "Experience Site",
+      "Category__c": "Salesforce",
+      "Display_Order__c": 7,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c8"
+      },
+      "Name": "Python",
+      "Category__c": "Programming Languages",
+      "Display_Order__c": 8,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c9"
+      },
+      "Name": "Java",
+      "Category__c": "Programming Languages",
+      "Display_Order__c": 9,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c10"
+      },
+      "Name": "C",
+      "Category__c": "Programming Languages",
+      "Display_Order__c": 10,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c11"
+      },
+      "Name": "HTML",
+      "Category__c": "Web Technologies",
+      "Display_Order__c": 11,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c12"
+      },
+      "Name": "CSS",
+      "Category__c": "Web Technologies",
+      "Display_Order__c": 12,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c13"
+      },
+      "Name": "JavaScript",
+      "Category__c": "Web Technologies",
+      "Display_Order__c": 13,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c14"
+      },
+      "Name": "SQL",
+      "Category__c": "Databases",
+      "Display_Order__c": 14,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c15"
+      },
+      "Name": "MySQL",
+      "Category__c": "Databases",
+      "Display_Order__c": 15,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c16"
+      },
+      "Name": "Machine Learning",
+      "Category__c": "Data Science & ML",
+      "Display_Order__c": 16,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c17"
+      },
+      "Name": "Data Science",
+      "Category__c": "Data Science & ML",
+      "Display_Order__c": 17,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c18"
+      },
+      "Name": "Pandas",
+      "Category__c": "Data Science & ML",
+      "Display_Order__c": 18,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c19"
+      },
+      "Name": "NumPy",
+      "Category__c": "Data Science & ML",
+      "Display_Order__c": 19,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c20"
+      },
+      "Name": "TensorFlow",
+      "Category__c": "Data Science & ML",
+      "Display_Order__c": 20,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c21"
+      },
+      "Name": "Time Series Analysis",
+      "Category__c": "Data Science & ML",
+      "Display_Order__c": 21,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c22"
+      },
+      "Name": "VS Code",
+      "Category__c": "Tools",
+      "Display_Order__c": 22,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c23"
+      },
+      "Name": "Git",
+      "Category__c": "Tools",
+      "Display_Order__c": 23,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c24"
+      },
+      "Name": "GitHub",
+      "Category__c": "Tools",
+      "Display_Order__c": 24,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c25"
+      },
+      "Name": "Problem Solving",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 25,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c26"
+      },
+      "Name": "Analytical Thinking",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 26,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c27"
+      },
+      "Name": "Quick Learner",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 27,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c28"
+      },
+      "Name": "Communication",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 28,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c29"
+      },
+      "Name": "Team Collaboration",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 29,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c30"
+      },
+      "Name": "Time Management",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 30,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c31"
+      },
+      "Name": "Attention to Detail",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 31,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c32"
+      },
+      "Name": "Teaching",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 32,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Skill__c",
+        "referenceId": "Portfolio_Skill__c33"
+      },
+      "Name": "Mentoring",
+      "Category__c": "Soft Skills",
+      "Display_Order__c": 33,
+      "Is_Published__c": true
+    }
+  ]
+}

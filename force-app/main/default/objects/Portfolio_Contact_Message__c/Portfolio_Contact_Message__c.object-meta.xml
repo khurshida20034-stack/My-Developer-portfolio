@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Portfolio Contact Message</label>
+    <pluralLabel>Portfolio Contact Messages</pluralLabel>
+    <description>The Portfolio Contact Message object captures messages sent by visitors through the portfolio contact form, including sender name, email, phone, subject and message. Commonly used for inbound enquiries and follow-up.</description>
+    <nameField>
+        <label>Message Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>MSG-{0000}</displayFormat>
+        <startingNumber>1</startingNumber>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <visibility>Public</visibility>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+</CustomObject>

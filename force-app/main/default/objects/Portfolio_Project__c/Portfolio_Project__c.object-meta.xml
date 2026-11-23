@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Portfolio Project</label>
+    <pluralLabel>Portfolio Projects</pluralLabel>
+    <description>The Portfolio Project object stores showcase projects for the personal portfolio site. It captures Description, Tech Stack, GitHub and Demo links, featured status and display order. Commonly used for the Projects section of the website.</description>
+    <nameField>
+        <label>Project Title</label>
+        <type>Text</type>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <visibility>Public</visibility>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+</CustomObject>

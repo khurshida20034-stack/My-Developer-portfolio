@@ -1,0 +1,45 @@
+<template>
+    <section class="section section-alt" aria-labelledby="experience-title">
+        <div class="container">
+            <p class="eyebrow">My journey</p>
+            <h2 id="experience-title" class="section-title">Experience &amp; Education</h2>
+            <template lwc:if={hasEntries}>
+                <div class="columns">
+                    <div lwc:if={hasWork} class="column">
+                        <h3 class="column-title">Experience</h3>
+                        <ol class="timeline">
+                            <template for:each={workEntries} for:item="entry">
+                                <li key={entry.id} class="item">
+                                    <h4 class="item-title">{entry.title}</h4>
+                                    <p class="item-meta">
+                                        <span lwc:if={entry.organization}>{entry.organization}</span>
+                                        <span lwc:if={entry.location}> &middot; {entry.location}</span>
+                                    </p>
+                                    <p lwc:if={entry.range} class="item-range">{entry.range}</p>
+                                    <p lwc:if={entry.description} class="item-desc">{entry.description}</p>
+                                </li>
+                            </template>
+                        </ol>
+                    </div>
+                    <div lwc:if={hasEducation} class="column">
+                        <h3 class="column-title">Education</h3>
+                        <ol class="timeline">
+                            <template for:each={educationEntries} for:item="entry">
+                                <li key={entry.id} class="item">
+                                    <h4 class="item-title">{entry.title}</h4>
+                                    <p class="item-meta">
+                                        <span lwc:if={entry.organization}>{entry.organization}</span>
+                                        <span lwc:if={entry.location}> &middot; {entry.location}</span>
+                                    </p>
+                                    <p lwc:if={entry.range} class="item-range">{entry.range}</p>
+                                    <p lwc:if={entry.description} class="item-desc">{entry.description}</p>
+                                </li>
+                            </template>
+                        </ol>
+                    </div>
+                </div>
+            </template>
+            <p lwc:else class="empty">Experience is coming soon.</p>
+        </div>
+    </section>
+</template>

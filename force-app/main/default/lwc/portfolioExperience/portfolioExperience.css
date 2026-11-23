@@ -1,0 +1,63 @@
+@import 'c/portfolioShared';
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    margin-top: 1.6rem;
+}
+
+.column-title {
+    margin: 0 0 1rem;
+    font-size: 1.1rem;
+    color: var(--pf-text);
+}
+
+.timeline {
+    margin: 0;
+    padding: 0 0 0 1.2rem;
+    list-style: none;
+    border-left: 2px solid var(--pf-accent-strong);
+}
+
+.item {
+    position: relative;
+    margin-bottom: 1.6rem;
+    padding-left: 0.6rem;
+}
+
+.item::before {
+    content: '';
+    position: absolute;
+    left: calc(-1.2rem - 7px);
+    top: 0.45rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--pf-accent-strong);
+    border: 2px solid var(--pf-surface-alt);
+}
+
+.item-title {
+    margin: 0;
+    font-size: 1.05rem;
+    color: var(--pf-text);
+}
+
+.item-meta {
+    margin: 0.15rem 0 0;
+    color: var(--pf-link);
+    font-weight: 600;
+}
+
+.item-range {
+    margin: 0.1rem 0 0.4rem;
+    color: var(--pf-muted);
+    font-size: 0.88rem;
+}
+
+.item-desc {
+    margin: 0;
+    color: var(--pf-muted);
+    white-space: pre-line;
+}

@@ -1,0 +1,42 @@
+<template>
+    <section class="section" aria-labelledby="contact-title">
+        <div class="container layout">
+            <div>
+                <p class="eyebrow">Get in touch</p>
+                <h2 id="contact-title" class="section-title">Contact</h2>
+                <p class="section-lead">Have an opportunity, a question or just want to say hello? Send a message and I will get back to you.</p>
+                <div class="direct">
+                    <a lwc:if={mailHref} class="btn btn-outline" href={mailHref}>{email}</a>
+                    <a lwc:if={whatsappHref} class="btn" href={whatsappHref} target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                </div>
+            </div>
+            <form class="card form" onsubmit={handleSubmit} novalidate>
+                <div class="field">
+                    <label for="pf-name">Name</label>
+                    <input id="pf-name" name="senderName" type="text" maxlength="120" required autocomplete="name" onchange={handleChange} />
+                </div>
+                <div class="field">
+                    <label for="pf-email">Email</label>
+                    <input id="pf-email" name="senderEmail" type="email" required autocomplete="email" onchange={handleChange} />
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <label for="pf-phone">Phone (optional)</label>
+                        <input id="pf-phone" name="senderPhone" type="tel" maxlength="40" autocomplete="tel" onchange={handleChange} />
+                    </div>
+                    <div class="field">
+                        <label for="pf-subject">Subject (optional)</label>
+                        <input id="pf-subject" name="subject" type="text" maxlength="255" onchange={handleChange} />
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="pf-message">Message</label>
+                    <textarea id="pf-message" name="message" rows="5" maxlength="5000" required onchange={handleChange}></textarea>
+                </div>
+                <button type="submit" class="btn" disabled={isSending}>{sendLabel}</button>
+                <p lwc:if={isSent} class="ok" role="status">Thank you! Your message has been sent.</p>
+                <p lwc:if={errorMessage} class="err" role="alert">{errorMessage}</p>
+            </form>
+        </div>
+    </section>
+</template>

@@ -1,0 +1,28 @@
+<template>
+    <section class="section section-alt" aria-labelledby="skills-title">
+        <div class="container">
+            <p class="eyebrow">What I work with</p>
+            <h2 id="skills-title" class="section-title">Skills</h2>
+            <template lwc:if={hasSkills}>
+                <div class="grid">
+                    <template for:each={groups} for:item="group">
+                        <div key={group.category} class="card">
+                            <h3 class="group-title">{group.category}</h3>
+                            <ul class="chips">
+                                <template for:each={group.items} for:item="skill">
+                                    <li key={skill.id} class="chip-wrap">
+                                        <span class="chip">{skill.name}</span>
+                                        <div lwc:if={skill.hasLevel} class="bar" role="img" aria-label={skill.levelLabel}>
+                                            <div class="bar-fill" style={skill.barStyle}></div>
+                                        </div>
+                                    </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </template>
+                </div>
+            </template>
+            <p lwc:else class="empty">Skills are coming soon.</p>
+        </div>
+    </section>
+</template>

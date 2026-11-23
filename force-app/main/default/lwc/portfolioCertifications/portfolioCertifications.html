@@ -1,0 +1,22 @@
+<template>
+    <section class="section" aria-labelledby="certs-title">
+        <div class="container">
+            <p class="eyebrow">Credentials</p>
+            <h2 id="certs-title" class="section-title">Certifications</h2>
+            <template lwc:if={hasCertifications}>
+                <div class="grid">
+                    <template for:each={cards} for:item="cert">
+                        <article key={cert.id} class="card">
+                            <h3 class="cert-title">{cert.name}</h3>
+                            <p lwc:if={cert.issuer} class="cert-issuer">{cert.issuer}</p>
+                            <p lwc:if={cert.issued} class="cert-meta">Issued {cert.issued}</p>
+                            <p lwc:if={cert.credentialId} class="cert-meta">ID: {cert.credentialId}</p>
+                            <a lwc:if={cert.url} href={cert.url} target="_blank" rel="noopener noreferrer">View credential</a>
+                        </article>
+                    </template>
+                </div>
+            </template>
+            <p lwc:else class="empty">Certifications will be added soon.</p>
+        </div>
+    </section>
+</template>

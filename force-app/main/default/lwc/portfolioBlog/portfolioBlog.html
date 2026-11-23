@@ -1,0 +1,25 @@
+<template>
+    <section class="section section-alt" aria-labelledby="blog-title">
+        <div class="container">
+            <p class="eyebrow">Thoughts and notes</p>
+            <h2 id="blog-title" class="section-title">Blog</h2>
+            <template lwc:if={hasPosts}>
+                <div class="grid">
+                    <template for:each={cards} for:item="post">
+                        <article key={post.id} class="card">
+                            <p lwc:if={post.date} class="date">{post.date}</p>
+                            <h3 class="post-title">{post.title}</h3>
+                            <p lwc:if={post.summary} class="summary">{post.summary}</p>
+                            <p lwc:if={post.expanded} class="body">{post.body}</p>
+                            <div class="links">
+                                <button lwc:if={post.hasBody} type="button" class="link-btn" data-id={post.id} aria-expanded={post.expanded} onclick={handleToggle}>{post.toggleLabel}</button>
+                                <a lwc:if={post.externalUrl} href={post.externalUrl} target="_blank" rel="noopener noreferrer">Read article</a>
+                            </div>
+                        </article>
+                    </template>
+                </div>
+            </template>
+            <p lwc:else class="empty">Blog posts are coming soon.</p>
+        </div>
+    </section>
+</template>

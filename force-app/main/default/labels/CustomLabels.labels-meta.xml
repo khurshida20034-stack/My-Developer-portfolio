@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Portfolio_Notification_Sender_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Org-Wide Email Address Id used as From for portfolio contact notifications</shortDescription>
+        <value>0D2gK0000007F5ZSAU</value>
+    </labels>
+</CustomLabels>

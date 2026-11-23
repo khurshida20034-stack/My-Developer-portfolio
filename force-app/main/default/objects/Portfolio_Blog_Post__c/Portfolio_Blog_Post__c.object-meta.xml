@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Portfolio Blog Post</label>
+    <pluralLabel>Portfolio Blog Posts</pluralLabel>
+    <description>The Portfolio Blog Post object stores articles written in Salesforce or links to external articles for the portfolio blog. Commonly used for the Blog section, newest first.</description>
+    <nameField>
+        <label>Post Title</label>
+        <type>Text</type>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <visibility>Public</visibility>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+</CustomObject>

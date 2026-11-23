@@ -1,0 +1,29 @@
+<template>
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+            <div class="hero-copy">
+                <p class="eyebrow">Hello, I am</p>
+                <h1 id="hero-title" class="name">{fullName}</h1>
+                <p class="tagline">{tagline}</p>
+                <p class="bio">{bio}</p>
+                <p lwc:if={location} class="where">{location}</p>
+                <div class="actions">
+                    <a lwc:if={mailHref} class="btn" href={mailHref}>Email me</a>
+                    <a lwc:if={whatsappHref} class="btn btn-outline" href={whatsappHref} target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                </div>
+                <ul class="socials" aria-label="Social links">
+                    <template for:each={socials} for:item="social">
+                        <li key={social.key}>
+                            <a class="social" href={social.href} target="_blank" rel="noopener noreferrer">{social.label}</a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+            <div class="hero-art">
+                <div class="ring ring-one"></div>
+                <div class="ring ring-two"></div>
+                <img src={profilePhoto} alt="Portrait of Khurshida" class="hero-photo" />
+            </div>
+        </div>
+    </section>
+</template>

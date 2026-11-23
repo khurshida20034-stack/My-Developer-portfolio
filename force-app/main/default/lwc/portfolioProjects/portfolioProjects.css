@@ -1,0 +1,84 @@
+@import 'c/portfolioShared';
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.3rem;
+    margin-top: 1.6rem;
+}
+
+.project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.project:hover {
+    transform: translateY(-3px);
+    border-color: var(--pf-accent-strong);
+}
+
+.badge {
+    align-self: flex-start;
+    margin-bottom: 0.6rem;
+    padding: 0.1rem 0.6rem;
+    border-radius: 999px;
+    background: var(--pf-accent);
+    color: var(--pf-on-accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.project-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+    color: var(--pf-text);
+}
+
+.project-desc {
+    flex: 1;
+    margin: 0 0 1rem;
+    color: var(--pf-muted);
+    white-space: pre-line;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.tag {
+    padding: 0.15rem 0.6rem;
+    border-radius: 6px;
+    background: var(--pf-surface-alt);
+    border: 1px solid var(--pf-border);
+    color: var(--pf-text);
+    font-size: 0.8rem;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.more {
+    margin: 2rem 0 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project {
+        transition: none;
+    }
+
+    .project:hover {
+        transform: none;
+    }
+}

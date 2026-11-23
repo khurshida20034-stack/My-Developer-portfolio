@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GitHub_URL__c</fullName>
+    <label>GitHub URL</label>
+    <description>Link to the source repository.</description>
+    <inlineHelpText>Paste the full https:// repository link.</inlineHelpText>
+    <type>Url</type>
+    <required>false</required>
+</CustomField>

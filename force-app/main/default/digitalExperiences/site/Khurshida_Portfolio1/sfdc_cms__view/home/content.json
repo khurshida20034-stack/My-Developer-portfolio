@@ -1,0 +1,78 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"fd21bef6-4795-4383-aaf2-cbe4eb736576\",\"columns\":[{\"UUID\":\"1e853104-388d-4fe2-8c31-eb94cd364c5e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "fullName" : "Sk Khurshida Banu",
+                "tagline" : "Computer Science Postgraduate | Salesforce Developer Intern | AI & Innovation Enthusiast",
+                "bio" : "Highly motivated Computer Science postgraduate with hands-on experience in programming, machine learning, data analysis and the Salesforce platform. Proficient in Python, Java and SQL, with knowledge of Salesforce CRM concepts and exposure to full-stack development. Eager to grow in Salesforce development and IT roles while contributing to organizational success.",
+                "location" : "Kolkata, India",
+                "email" : "khurshida20034@gmail.com",
+                "whatsappNumber" : "916291303392",
+                "linkedinUrl" : "https://www.linkedin.com/in/skkhurshida",
+                "githubUrl" : "https://github.com/khurshida20034-stack",
+                "instagramUrl" : "https://www.instagram.com/khushi_bibliophile",
+                "trailheadUrl" : ""
+              },
+              "definition" : "c:portfolioApp",
+              "id" : "7f61684d-55a8-4542-ac1e-1d722e4ff50f",
+              "type" : "component"
+            } ],
+            "id" : "1e853104-388d-4fe2-8c31-eb94cd364c5e",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "fd21bef6-4795-4383-aaf2-cbe4eb736576",
+          "type" : "component"
+        } ],
+        "id" : "50532377-feeb-4e9a-87b5-e120f0c65baf",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "32da8eaa-617b-4cc2-baff-99e4565020d7",
+          "type" : "component"
+        } ],
+        "id" : "ccadb36d-e100-400f-8629-a0c90db9da69",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "7028e39b-f595-44ae-85e5-9d937022b108",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

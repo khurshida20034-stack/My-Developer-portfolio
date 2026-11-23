@@ -1,0 +1,62 @@
+<template>
+    <div class={themeClass}>
+        <header class="header">
+            <div class="container header-inner">
+                <a class="brand" href="#" data-id="about" onclick={handleNavClick} aria-label="Go to top">
+                    <img src={portfolioLogo} alt="Khurshida Portfolio" class="brand-logo" />
+                    <span class="brand-name">{siteName}</span>
+                </a>
+                <nav class="nav" aria-label="Primary">
+                    <template for:each={navItems} for:item="item">
+                        <a key={item.id} class="nav-link" href="#" data-id={item.id} onclick={handleNavClick}>{item.label}</a>
+                    </template>
+                </nav>
+                <button class="toggle" type="button" onclick={toggleTheme} aria-pressed={isDark} aria-label={toggleLabel} title={toggleLabel}>
+                    <span aria-hidden="true">{toggleIcon}</span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <c-portfolio-hero
+                data-section="about"
+                full-name={fullName}
+                tagline={tagline}
+                bio={bio}
+                location={location}
+                email={email}
+                linkedin-url={linkedinUrl}
+                github-url={githubUrl}
+                instagram-url={instagramUrl}
+                trailhead-url={trailheadUrl}
+                whatsapp-href={whatsappHref}
+            ></c-portfolio-hero>
+
+            <template lwc:if={loadError}>
+                <div class="container notice" role="alert">Portfolio content could not be loaded right now. Please refresh the page.</div>
+            </template>
+            <template lwc:if={isLoading}>
+                <div class="container notice" role="status">Loading portfolio...</div>
+            </template>
+
+            <c-portfolio-skills data-section="skills" skills={data.skills}></c-portfolio-skills>
+            <c-portfolio-projects data-section="projects" projects={data.projects} github-url={githubUrl}></c-portfolio-projects>
+            <c-portfolio-experience data-section="experience" experiences={data.experiences}></c-portfolio-experience>
+            <c-portfolio-certifications data-section="certifications" certifications={data.certifications}></c-portfolio-certifications>
+            <c-portfolio-blog data-section="blog" posts={data.blogPosts}></c-portfolio-blog>
+            <c-portfolio-contact data-section="contact" email={email} whatsapp-href={whatsappHref}></c-portfolio-contact>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-inner">
+                <span>&copy; {currentYear} {fullName}. Built on Salesforce.</span>
+            </div>
+        </footer>
+
+        <template lwc:if={whatsappHref}>
+            <a class="wa-float" href={whatsappHref} target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+                <span aria-hidden="true">WhatsApp</span>
+            </a>
+        </template>
+    </div>
+</template>

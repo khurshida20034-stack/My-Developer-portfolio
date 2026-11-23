@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sender_Name__c</fullName>
+    <label>Sender Name</label>
+    <description>Name entered by the visitor.</description>
+    <inlineHelpText>Name of the person who wrote to you.</inlineHelpText>
+    <type>Text</type>
+    <length>120</length>
+    <required>false</required>
+</CustomField>

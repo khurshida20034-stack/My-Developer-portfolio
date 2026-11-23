@@ -1,0 +1,47 @@
+@import 'c/portfolioShared';
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.3rem;
+    margin-top: 1.6rem;
+}
+
+.date {
+    margin: 0 0 0.3rem;
+    color: var(--pf-muted);
+    font-size: 0.85rem;
+}
+
+.post-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.15rem;
+    color: var(--pf-text);
+}
+
+.summary,
+.body {
+    margin: 0 0 0.8rem;
+    color: var(--pf-muted);
+}
+
+.body {
+    white-space: pre-line;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.link-btn {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--pf-link);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}

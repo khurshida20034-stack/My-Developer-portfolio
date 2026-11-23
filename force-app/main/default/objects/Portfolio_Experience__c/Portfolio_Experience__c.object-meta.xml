@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Portfolio Experience</label>
+    <pluralLabel>Portfolio Experiences</pluralLabel>
+    <description>The Portfolio Experience object holds work, internship and education timeline entries for the portfolio site, with organization, dates and summary. Commonly used for the Experience and Education timeline.</description>
+    <nameField>
+        <label>Title</label>
+        <type>Text</type>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <visibility>Public</visibility>
+    <enableActivities>true</enableActivities>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+</CustomObject>

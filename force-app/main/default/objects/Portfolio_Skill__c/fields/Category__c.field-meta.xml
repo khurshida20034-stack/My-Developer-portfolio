@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <label>Category</label>
+    <description>Groups skills in the site, such as Programming Languages or Salesforce.</description>
+    <inlineHelpText>Use the same category text on skills that belong together.</inlineHelpText>
+    <type>Text</type>
+    <length>80</length>
+    <required>false</required>
+</CustomField>

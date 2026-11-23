@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Portfolio_Project__c",
+        "referenceId": "Portfolio_Project__c1"
+      },
+      "Name": "Real Estate Property & Site-Visit Tracker",
+      "Description__c": "Developed a Real Estate CRM solution on Sales Cloud featuring custom Property and Site Visit tracking, a guided Screen Flow for visit scheduling, and automated property status updates on deal closure.",
+      "Tech_Stack__c": "Salesforce, Sales Cloud, Screen Flow",
+      "Is_Featured__c": true,
+      "Display_Order__c": 1,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Project__c",
+        "referenceId": "Portfolio_Project__c2"
+      },
+      "Name": "Delhi Air Pollution Data Analysis & Forecasting",
+      "Description__c": "MCA final year project. Collected and analyzed AQI, PM2.5, PM10, SO2, NO2 and CO data, then ran a comparative study of machine learning and time series models for pollution prediction.",
+      "Tech_Stack__c": "Python, Machine Learning, Time Series Analysis",
+      "Is_Featured__c": true,
+      "Display_Order__c": 2,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Project__c",
+        "referenceId": "Portfolio_Project__c3"
+      },
+      "Name": "Sign Language Detection System",
+      "Description__c": "Built a machine learning based system that recognizes and interprets sign language gestures, improving accessibility through automated gesture recognition.",
+      "Tech_Stack__c": "Python, TensorFlow",
+      "Is_Featured__c": false,
+      "Display_Order__c": 3,
+      "Is_Published__c": true
+    },
+    {
+      "attributes": {
+        "type": "Portfolio_Project__c",
+        "referenceId": "Portfolio_Project__c4"
+      },
+      "Name": "Smartphone Specifications Dataset Pipeline",
+      "Description__c": "Built an automated web scraping pipeline to collect smartphone specifications from GSMArena, cleaned them into a structured dataset of hardware, software and pricing features, and performed exploratory data analysis.",
+      "Tech_Stack__c": "Python, BeautifulSoup, Requests, Pandas, Seaborn, Matplotlib",
+      "Is_Featured__c": false,
+      "Display_Order__c": 4,
+      "Is_Published__c": true
+    }
+  ]
+}
